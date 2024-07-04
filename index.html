@@ -1,35 +1,26 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- The href attribute points to the relative path of the stylesheet-->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Color</title>
-  </head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-  <body>
-    <!--Class attributes added for styling -->
-    <section class="box box-orange">
-      <h2>Orange</h2>
-    </section>
+<div class="container">
+  <h1>Weather Dashboard</h1>
 
-    <section class="box box-blue">
-      <h2>Blue</h2>
-    </section>
+  <form id="searchForm">
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button type="submit">Search</button>
+  </form>
 
-    <section class="box box-orange">
-      <h2>Orange</h2>
-    </section>
-   
-    <section class="box box-blue">
-      <h2>Blue</h2>
-    </section>
+  <div id="weatherInfo"></div>
+  <div id="searchHistory"></div>
+</div>
 
-    <!--id attribute added for styling-->
-    <section class="box" id="box-yellow">
-      <h2>Yellow</h2>
-    </section>
-  </body>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
