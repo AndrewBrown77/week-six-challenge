@@ -1,37 +1,9 @@
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  form {
-    margin-bottom: 20px;
-  }
-  
-  input {
-    padding: 5px;
-    margin-right: 10px;
-  }
-  
-  button {
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  #weatherInfo {
-    margin-bottom: 20px;
-  }
-  
-  #searchHistory {
-    text-align: left;
-  }
-  
-  .forecast {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
+#forecast {
+  position: absolute;
+  left: -3%;
+}
+
+h1 {
+  margin-bottom: 0%;
+  background-image: linear-gradient(to right, rgb(255, 193, 8), rgb(78, 236, 125) , rgb(0, 123, 255));
+}
